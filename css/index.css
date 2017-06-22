@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    display: inline-block;
+}
