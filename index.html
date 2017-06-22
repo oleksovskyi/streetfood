@@ -8,33 +8,40 @@
 </head>
 <body>
     <header>
-        <h1>StreetFood</h1>
+        
     </header>
     <main>
         <nav>
             <ul>
-               <li>Home</li>
-               <a href="#about"><li>About us</li></a>
-               <a href="#popular"><li>Most popular</li></a>
-               <a href="#contact"><li>Contact us</li></a>
+               <li class="menu"><h1>Street food</h1></li>
+               <li class="menu"><a href="#home">Home</a></li>
+               <li class="menu"><a href="#about">About us</a></li>
+               <li class="menu"><a href="#popular">Most popular</a></li>
+               <li class="menu"><a href="#contact">Contact us</a></li>
             </ul>
         </nav>
-        <div>
+        <div id="home">
             <img src="img/streetfood.jpg" alt="Burger photo">
         </div>
         <article>
             <h2 id="about">About us</h2>
-            <img src="img/streetfood-thailand.jpg" alt="Street food Thailand">
-            <p>Street food is something with which we meet every day, walking along the street of the city.
+            <div class="grid">
+            <div class="image">
+               <img src="img/streetfood-thailand.jpg" alt="Street food Thailand">
+            </div>  
+            <div class="paragraph">
+               <p>Street food is something with which we meet every day, walking along the street of the city.
             We used to buy snacks in places because it is fast and tasty.
             Our site was created in order to see and appreciate what people eat in fast-foods facilities in different cities and countries.
             You can easily evaluate food, read a brief description of the dish, compare and share yours impressions of it.</p>
+            </div>
+            </div>
         </article>
         <article>
             <h2 id="popular">Most popular</h2>
             <div>
                 <ul>
-                    <li><img src="img/patbingsu.jpg" alt="Patbingsu"></li>
+                   <li><img class="dish" src="img/patbingsu.jpg" alt="Patbingsu"></li>
                     <li>Korea KFC's Blueberry Patbingsu is a summer menu item with shaved ice, blueberries, blueberry syrup, and red beans.</li>
                     <li>Cost 250 KRW</li>
                     <li>Rating</li>
@@ -42,7 +49,7 @@
             </div>
             <div>
                 <ul>
-                    <li><img src="img/birizza.jpg" alt="Birizza"></li>
+                    <li><img class="dish" src="img/birizza.jpg" alt="Birizza"></li>
                     <li>India The Birizza is Pizza Hut's twist on biryani, an Indian dish made with seasoned rice, meat and vegetables.</li>
                     <li>Cost 65 INR</li>
                     <li>Rating</li>
@@ -50,13 +57,13 @@
             </div>
                  <div>
                 <ul>
-                    <li><img src="img/egg-tarts.jpg" alt="Egg Tarts"></li>
+                    <li><img class="dish" src="img/egg-tarts.jpg" alt="Egg Tarts"></li>
                     <li>Singapore The KFC Egg Tart is made of egg custard baked in pastry crust. The dessert comes in several varieties, including mango, peach, red bean, coconut, and cheese.</li>
                     <li>Cost 1.5 SGD</li>
                     <li>Rating</li>
                 </ul>
             </div>
-            <p>VIEW MORE</p>
+            <p id="more">VIEW MORE</p>
         </article>
         <article>
             <h2 id="contact">Contact us</h2>
